@@ -3,7 +3,18 @@
  */
 public class NumberConverter {
 
-    private String printBinaryform(int number) {
+    private String toBinaryform(int number) {
     return Integer.toBinaryString(number);
     }
+
+    private String toHexadecimal (int number) {
+        return Integer.toHexString(number);
+
+    }
+
+    private String toOctal (int number) {
+        return Integer.toOctalString(number);
+
+    }
+
 }
