@@ -1,5 +1,5 @@
 
-public class Trigonometry implements Rounder {
+public class Trigonometry {
 
 	public Double sin(int x) {
 		return Math.sin(Math.toRadians(x));

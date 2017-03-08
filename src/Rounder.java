@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 
-public interface Rounder {
+public class Rounder {
 
 	public static String round(Double a) {
 		DecimalFormat df = new DecimalFormat("#.##");
